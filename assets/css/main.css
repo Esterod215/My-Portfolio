@@ -4114,3 +4114,21 @@ input, select, textarea {
 					}
 
 	}
+	/* Estevan's Css */
+.r-projects{
+	padding-top: 140px;
+	font-size: 60px;
+}
+.project-name{
+	
+	color: #e13652;
+	font-weight:bold;
+	font-size: 35px;
+}
+.contact{
+	font-weight:bold;
+	font-size: 50px;
+}
+.contact-info{
+	font-size:20px;
+}
