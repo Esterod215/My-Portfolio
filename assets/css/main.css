@@ -3650,12 +3650,21 @@ input, select, textarea {
 			#footer {
 				padding: 4.5em 0;
 			}
+			.button{
+				width: 150px;
+				font-size: 12px;
+			}
+			
 
 	}
 
 /* Medium */
 
 	@media screen and (max-width: 980px) {
+		.button{
+			width: 200px;
+			font-size: 20px;
+		}
 
 		/* Basic */
 
@@ -3833,9 +3842,9 @@ input, select, textarea {
 
 		/* Header */
 
-			#header {
+			/* #header {
 				display: none;
-			}
+			} */
 
 		/* Banner */
 
@@ -3862,7 +3871,7 @@ input, select, textarea {
 					}
 
 		/* Nav */
-
+					/*
 			#page-wrapper {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
@@ -4041,6 +4050,17 @@ input, select, textarea {
 				-webkit-transform: translateX(0);
 				-ms-transform: translateX(0);
 				transform: translateX(0);
+			} */
+
+			nav{
+				display: flex;
+				width: 100%;
+				justify-content: center;
+				
+			}
+			nav, a{
+				font-size: 22px;
+				color: #e44c65;
 			}
 
 		/* Footer */
@@ -4048,6 +4068,8 @@ input, select, textarea {
 			#footer {
 				padding: 3.25em 1.5em;
 			}
+
+		
 
 	}
 
@@ -4131,4 +4153,23 @@ input, select, textarea {
 }
 .contact-info{
 	font-size:20px;
+}
+nav, a{
+	font-size: 20px;
+	color: #e44c65;
+}
+.about-click:first-child{
+	font-size: 15px;
+	text-decoration: underline;
+	color:rgba(255, 255, 255, 0.75);
+	
+}
+.about-click:last-child{
+	border: none;
+	margin-top: 20px;
+	font-size: 15px;
+	
+}
+.image .fit .main{
+	margin-right: 10px;
 }
