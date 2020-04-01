@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.whole-container {
+  display: flex;
+  justify-content: space-between;
+  height: 150vh;
+}
+/*Left side stylings*/
+.left-section-container {
+  background-color: rgba(6, 87, 82, 0.988);
+  width: 40%;
+  box-shadow: 1px 0px;
+}
+.left-section-container h1 {
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  margin-bottom: 5px;
+}
+.left-section-container .small-underline {
+  border-bottom: 0.7px solid white;
+  width: 10%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.left-section-container p {
+  color: white;
+  text-align: center;
+}
+.left-section-container .fs-dev {
+  margin-bottom: 15px;
+}
+.left-section-container h3 {
+  color: white;
+  margin-left: 50px;
+  text-decoration: underline;
+}
+.details {
+  margin-bottom: 30px;
+}
+.details a {
+  text-decoration: underline;
+  color: white;
+}
+.details p {
+  margin-bottom: 8px;
+}
+.details h3 {
+  margin-bottom: 20px;
+}
+.skills {
+  margin-bottom: 20px;
+}
+.skills p {
+  margin-bottom: 7px;
+}
+.skills h3 {
+  margin-bottom: 20px;
+}
+.education div h3 {
+  margin-bottom: 20px;
+}
+.left-section-container .education .school {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.left-section-container .education .school .date {
+  padding-left: 20px;
+}
+.left-section-container .education .school .school-details {
+  color: white;
+  margin-left: 20px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+.school-details h4 {
+  margin-bottom: 10px;
+}
+.left-section-container
+  .education
+  .school
+  .school-details
+  .education-description {
+  text-align: start;
+  padding-bottom: 10px;
+}
+
+.school-details p {
+  margin-left: 10px;
+  line-height: 1.2;
+  margin-top: 0;
+}
+.school-details h4 {
+  font-size: 16px;
+}
+
+/*Right detail section*/
+.right-section-container {
+  width: 59%;
+}
+.summary {
+  margin-bottom: 10px;
+}
+.summary i {
+  font-size: 1.2rem;
+}
+.summary p {
+  line-height: 1.2;
+  margin-top: 6px;
+}
+.projects-container h2 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.project {
+  margin-bottom: 10px;
+}
+.project-title {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+
+  margin-bottom: 8px;
+}
+.project-title .icons {
+  font-size: 1rem;
+}
+.project-title h3 {
+  font-size: 1.2rem;
+}
+.project-title a {
+  color: black;
+}
+
+.project .responsibilities {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.employment-container h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.job-description p {
+  color: grey;
+  margin-bottom: 10px;
+}
+.job-description ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
