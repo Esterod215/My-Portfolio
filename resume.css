@@ -7,7 +7,7 @@
 .whole-container {
   display: flex;
   justify-content: space-between;
-  height: 150vh;
+  height: 204vh;
 }
 /*Left side stylings*/
 .left-section-container {
